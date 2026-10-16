@@ -1,0 +1,62 @@
+# ============================================================
+#  Unity 标准忽略清单
+#  注意：本文件必须是 UTF-8 无 BOM，否则第一条规则会失效
+# ============================================================
+
+# Unity 自动生成的缓存与中间产物（体积大且可重建）
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# 自动生成的 IDE 工程文件，Unity 会重新生成
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# 崩溃报告
+sysinfo.txt
+crashlytics-build.properties
+
+# 打包产物
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# ============================================================
+#  本工程自定义
+# ============================================================
+
+# 优化前的本地备份，不需要上传
+_backup_before_*/
+
+# ============================================================
+#  黑体 simhei.ttf 是随 Windows 分发的商业字体，不随本仓库分发。
+#  需要中文界面时，请自行放入一个 SIL OFL 授权的中文字体
+#  （思源黑体 / Noto Sans SC 静态版），再运行
+#  Tools > 寻路 > 启用中文 UI。
+# ============================================================
+simhei.ttf
+simhei.ttf.meta
